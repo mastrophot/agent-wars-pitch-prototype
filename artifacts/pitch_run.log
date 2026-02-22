@@ -1,0 +1,43 @@
+generated_at=2026-02-22T23:57:09Z
+repo=https://github.com/mastrophot/agent-wars-pitch-prototype
+pages=https://mastrophot.github.io/agent-wars-pitch-prototype/
+
+[npm test]
+
+> agent-wars-pitch-prototype@0.1.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: generatePitchPlan requires non-empty prompt
+ok 1 - generatePitchPlan requires non-empty prompt
+  ---
+  duration_ms: 0.426792
+  ...
+# Subtest: generatePitchPlan returns required challenge fields
+ok 2 - generatePitchPlan returns required challenge fields
+  ---
+  duration_ms: 0.650083
+  ...
+# Subtest: NEAR-specific prompts inject NEAR context feature
+ok 3 - NEAR-specific prompts inject NEAR context feature
+  ---
+  duration_ms: 0.08175
+  ...
+# Subtest: toMarkdown includes essential sections
+ok 4 - toMarkdown includes essential sections
+  ---
+  duration_ms: 0.113833
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 47.233834
+
+[pages check]
+http_status=200
+first_line=<!doctype html>

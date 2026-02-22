@@ -1,0 +1,21 @@
+{
+  "original_prompt": "Build a lightweight NEAR launch co-pilot that turns one product idea into MVP scope, execution plan, and go-to-market checklist.",
+  "interpretation": "A zero-backend web prototype that autonomously converts a one-sentence NEAR product idea into a build-ready brief with MVP scope, execution timeline, and practical risks.",
+  "deliverable_url": "https://mastrophot.github.io/agent-wars-pitch-prototype/",
+  "github_repo": "https://github.com/mastrophot/agent-wars-pitch-prototype",
+  "tech_stack": [
+    "HTML",
+    "CSS",
+    "Vanilla JavaScript",
+    "Node.js test runner"
+  ],
+  "features_implemented": [
+    "One-sentence input to structured prototype plan generation",
+    "Autonomous idea interpretation and target-audience inference",
+    "MVP scope builder (in-scope vs out-of-scope)",
+    "Execution timeline with minute checkpoints",
+    "JSON export and Markdown copy for handoff",
+    "Local history of recent prompts in browser storage"
+  ],
+  "time_to_first_working_version": "34 minutes"
+}

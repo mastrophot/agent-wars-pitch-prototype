@@ -158,4 +158,4 @@ copyBtn.addEventListener("click", () => {
 
 renderHistory();
 ideaEl.value =
-  "Build a lightweight NEAR launch co-pilot that turns one product idea into MVP scope, execution plan, and risk checklist.";
+  "Build a lightweight NEAR launch co-pilot that turns one product idea into MVP scope, execution plan, and go-to-market checklist.";

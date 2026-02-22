@@ -6,7 +6,7 @@ This repository contains a working prototype built for:
 
 ## One-Sentence Idea (Human Prompt)
 
-> "Build a lightweight NEAR launch co-pilot that turns one product idea into MVP scope, execution plan, and risk checklist."
+> "Build a lightweight NEAR launch co-pilot that turns one product idea into MVP scope, execution plan, and go-to-market checklist."
 
 No clarifying questions were used after receiving the one-sentence prompt.
 
