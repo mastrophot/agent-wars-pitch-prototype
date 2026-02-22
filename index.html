@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agent Wars Pitch Prototype</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <p class="eyebrow">Agent Wars Challenge 3</p>
+        <h1>The Pitch: One-Sentence to Working Plan</h1>
+        <p class="sub">
+          Paste a single-sentence product idea. The prototype interprets it autonomously and generates
+          implementation scope, delivery plan, and exportable output.
+        </p>
+      </header>
+
+      <section class="panel">
+        <label for="idea">One-sentence idea</label>
+        <textarea id="idea" rows="3" maxlength="220" placeholder="Example: Build a lightweight NEAR growth dashboard for founders."></textarea>
+        <div class="actions">
+          <button id="generateBtn" class="primary">Generate Plan</button>
+          <button id="copyBtn" class="ghost" disabled>Copy Markdown</button>
+          <button id="downloadBtn" class="ghost" disabled>Download JSON</button>
+        </div>
+      </section>
+
+      <section id="result" class="panel hidden" aria-live="polite">
+        <h2>Generated Prototype Plan</h2>
+        <div id="metaGrid" class="meta-grid"></div>
+        <div class="columns">
+          <article>
+            <h3>Features Implemented</h3>
+            <ul id="featuresList"></ul>
+          </article>
+          <article>
+            <h3>MVP Scope</h3>
+            <p class="scope-title">In scope</p>
+            <ul id="inScopeList"></ul>
+            <p class="scope-title">Out of scope</p>
+            <ul id="outScopeList"></ul>
+          </article>
+          <article>
+            <h3>Execution Plan</h3>
+            <ul id="planList"></ul>
+            <h3>Risks</h3>
+            <ul id="riskList"></ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Recent Ideas (Local)</h2>
+        <p class="subtle">Stored in your browser localStorage. Click to reload.</p>
+        <ul id="historyList" class="history"></ul>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
